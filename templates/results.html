@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h1>Query Results</h1>
+    {% if query == 'Top 5 Products by Sales' %}
+        <ul>
+            {% for item, value in result.items() %}
+                <li>{{ item }}: {{ value }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Result: {{ result }}</p>
+    {% endif %}
+    <a href="/">Back to Query</a>
+</body>
+</html>
