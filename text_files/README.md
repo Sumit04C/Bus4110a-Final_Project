@@ -14,7 +14,6 @@ Contents:
     - results.html
 - text_files(holds any non-code files to assist in viewer understanding)
     - READ.ME.md(general project description)
-    - AI_Use.txt(describing how I used AI for assistance)
 
 Setup Instructions: 
 - Download and unzip the zip file
